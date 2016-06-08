@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0007F6131D0838E300B5286F /* RACTokenizedStringSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 0007F6111D0838E300B5286F /* RACTokenizedStringSequence.h */; };
+		0007F6141D0838E300B5286F /* RACTokenizedStringSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007F6121D0838E300B5286F /* RACTokenizedStringSequence.m */; };
+		0007F6151D08471800B5286F /* RACTokenizedStringSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 0007F6111D0838E300B5286F /* RACTokenizedStringSequence.h */; };
+		0007F6161D08471B00B5286F /* RACTokenizedStringSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007F6121D0838E300B5286F /* RACTokenizedStringSequence.m */; };
+		000A58891CA04E7A0036C921 /* ReactiveCocoaPerformanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000A58881CA04E7A0036C921 /* ReactiveCocoaPerformanceTests.m */; };
+		000A588B1CA04E7A0036C921 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* ReactiveCocoa.framework */; };
 		314304171ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		314304181ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 314304161ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.m */; };
 		7A7065811A3F88B8001E8354 /* RACKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */; };
@@ -398,6 +404,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		000A588C1CA04E7A0036C921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04725E119E49ED7006002AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D047260B19E49F82006002AA;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
 		D04725F719E49ED7006002AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D04725E119E49ED7006002AA /* Project object */;
@@ -431,6 +444,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0007F6111D0838E300B5286F /* RACTokenizedStringSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTokenizedStringSequence.h; sourceTree = "<group>"; };
+		0007F6121D0838E300B5286F /* RACTokenizedStringSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTokenizedStringSequence.m; sourceTree = "<group>"; };
+		000A58861CA04E7A0036C921 /* ReactiveCocoaPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000A58881CA04E7A0036C921 /* ReactiveCocoaPerformanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaPerformanceTests.m; sourceTree = "<group>"; };
+		000A588A1CA04E7A0036C921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		314304161ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+RACSignalSupport.m"; sourceTree = "<group>"; };
 		7A70657D1A3F88B8001E8354 /* RACKVOProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACKVOProxy.h; sourceTree = "<group>"; };
@@ -720,6 +738,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		000A58831CA04E7A0036C921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000A588B1CA04E7A0036C921 /* ReactiveCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D04725E619E49ED7006002AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -757,6 +783,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000A58871CA04E7A0036C921 /* ReactiveCocoaPerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				000A58881CA04E7A0036C921 /* ReactiveCocoaPerformanceTests.m */,
+				000A588A1CA04E7A0036C921 /* Info.plist */,
+			);
+			path = ReactiveCocoaPerformanceTests;
+			sourceTree = "<group>";
+		};
 		D037642919EDA3B600A782A9 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
@@ -952,6 +987,8 @@
 				D03764E519EDA41200A782A9 /* UITextField+RACSignalSupport.m */,
 				D03764E619EDA41200A782A9 /* UITextView+RACSignalSupport.h */,
 				D03764E719EDA41200A782A9 /* UITextView+RACSignalSupport.m */,
+				0007F6111D0838E300B5286F /* RACTokenizedStringSequence.h */,
+				0007F6121D0838E300B5286F /* RACTokenizedStringSequence.m */,
 			);
 			name = "Objective-C";
 			sourceTree = "<group>";
@@ -1035,6 +1072,7 @@
 				D04725EC19E49ED7006002AA /* ReactiveCocoa */,
 				D04725F919E49ED7006002AA /* ReactiveCocoaTests */,
 				D047262519E49FE8006002AA /* Configuration */,
+				000A58871CA04E7A0036C921 /* ReactiveCocoaPerformanceTests */,
 				D04725EB19E49ED7006002AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1046,6 +1084,7 @@
 				D04725F519E49ED7006002AA /* ReactiveCocoa-MacTests.xctest */,
 				D047260C19E49F82006002AA /* ReactiveCocoa.framework */,
 				D047261619E49F82006002AA /* ReactiveCocoa-iOSTests.xctest */,
+				000A58861CA04E7A0036C921 /* ReactiveCocoaPerformanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1193,6 +1232,7 @@
 				D03765FC19EDA41200A782A9 /* RACTargetQueueScheduler.h in Headers */,
 				D03765B419EDA41200A782A9 /* RACQueueScheduler+Subclass.h in Headers */,
 				D037661019EDA41200A782A9 /* RACUnit.h in Headers */,
+				0007F6131D0838E300B5286F /* RACTokenizedStringSequence.h in Headers */,
 				D037656419EDA41200A782A9 /* RACCompoundDisposable.h in Headers */,
 				D03764F419EDA41200A782A9 /* NSData+RACSupport.h in Headers */,
 				D03764FC19EDA41200A782A9 /* NSEnumerator+RACSequenceAdditions.h in Headers */,
@@ -1261,6 +1301,7 @@
 				D037665519EDA41200A782A9 /* UITableViewCell+RACSignalSupport.h in Headers */,
 				D03764F519EDA41200A782A9 /* NSData+RACSupport.h in Headers */,
 				D037653919EDA41200A782A9 /* NSString+RACSequenceAdditions.h in Headers */,
+				0007F6151D08471800B5286F /* RACTokenizedStringSequence.h in Headers */,
 				D037651519EDA41200A782A9 /* NSObject+RACDeallocating.h in Headers */,
 				D037658F19EDA41200A782A9 /* RACGroupedSignal.h in Headers */,
 				D03765C519EDA41200A782A9 /* RACScheduler+Subclass.h in Headers */,
@@ -1301,6 +1342,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		000A58851CA04E7A0036C921 /* ReactiveCocoaPerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000A58921CA04E7A0036C921 /* Build configuration list for PBXNativeTarget "ReactiveCocoaPerformanceTests" */;
+			buildPhases = (
+				000A58821CA04E7A0036C921 /* Sources */,
+				000A58831CA04E7A0036C921 /* Frameworks */,
+				000A58841CA04E7A0036C921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000A588D1CA04E7A0036C921 /* PBXTargetDependency */,
+			);
+			name = ReactiveCocoaPerformanceTests;
+			productName = ReactiveCocoaPerformanceTests;
+			productReference = 000A58861CA04E7A0036C921 /* ReactiveCocoaPerformanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D04725E919E49ED7006002AA /* ReactiveCocoa-Mac */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D047260019E49ED7006002AA /* Build configuration list for PBXNativeTarget "ReactiveCocoa-Mac" */;
@@ -1380,9 +1439,13 @@
 		D04725E119E49ED7006002AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = GitHub;
 				TargetAttributes = {
+					000A58851CA04E7A0036C921 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					D04725E919E49ED7006002AA = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -1413,11 +1476,19 @@
 				D04725F419E49ED7006002AA /* ReactiveCocoa-MacTests */,
 				D047260B19E49F82006002AA /* ReactiveCocoa-iOS */,
 				D047261519E49F82006002AA /* ReactiveCocoa-iOSTests */,
+				000A58851CA04E7A0036C921 /* ReactiveCocoaPerformanceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		000A58841CA04E7A0036C921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D04725E819E49ED7006002AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1451,6 +1522,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		000A58821CA04E7A0036C921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000A58891CA04E7A0036C921 /* ReactiveCocoaPerformanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D04725E519E49ED7006002AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1497,6 +1576,7 @@
 				D037656C19EDA41200A782A9 /* RACDelegateProxy.m in Sources */,
 				D037657419EDA41200A782A9 /* RACDynamicSequence.m in Sources */,
 				D037657019EDA41200A782A9 /* RACDisposable.m in Sources */,
+				0007F6141D0838E300B5286F /* RACTokenizedStringSequence.m in Sources */,
 				D03765DA19EDA41200A782A9 /* RACSignalProvider.d in Sources */,
 				D037653219EDA41200A782A9 /* NSSet+RACSequenceAdditions.m in Sources */,
 				D037651219EDA41200A782A9 /* NSObject+RACAppKitBindings.m in Sources */,
@@ -1650,6 +1730,7 @@
 				D037657919EDA41200A782A9 /* RACDynamicSignal.m in Sources */,
 				D037659519EDA41200A782A9 /* RACImmediateScheduler.m in Sources */,
 				D037651719EDA41200A782A9 /* NSObject+RACDeallocating.m in Sources */,
+				0007F6161D08471B00B5286F /* RACTokenizedStringSequence.m in Sources */,
 				D037658519EDA41200A782A9 /* RACEmptySignal.m in Sources */,
 				D037663719EDA41200A782A9 /* UIDatePicker+RACSignalSupport.m in Sources */,
 				D037654719EDA41200A782A9 /* NSURLConnection+RACSupport.m in Sources */,
@@ -1740,6 +1821,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		000A588D1CA04E7A0036C921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D047260B19E49F82006002AA /* ReactiveCocoa-iOS */;
+			targetProxy = 000A588C1CA04E7A0036C921 /* PBXContainerItemProxy */;
+		};
 		D04725F819E49ED7006002AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D04725E919E49ED7006002AA /* ReactiveCocoa-Mac */;
@@ -1753,6 +1839,175 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		000A588E1CA04E7A0036C921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ReactiveCocoaPerformanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.techery.ReactiveCocoaPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		000A588F1CA04E7A0036C921 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ReactiveCocoaPerformanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = io.techery.ReactiveCocoaPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Test;
+		};
+		000A58901CA04E7A0036C921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ReactiveCocoaPerformanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = io.techery.ReactiveCocoaPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000A58911CA04E7A0036C921 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ReactiveCocoaPerformanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = io.techery.ReactiveCocoaPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
 		D04725FE19E49ED7006002AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047262919E49FE8006002AA /* Debug.xcconfig */;
@@ -2033,6 +2288,17 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		000A58921CA04E7A0036C921 /* Build configuration list for PBXNativeTarget "ReactiveCocoaPerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000A588E1CA04E7A0036C921 /* Debug */,
+				000A588F1CA04E7A0036C921 /* Test */,
+				000A58901CA04E7A0036C921 /* Release */,
+				000A58911CA04E7A0036C921 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D04725E419E49ED7006002AA /* Build configuration list for PBXProject "ReactiveCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
