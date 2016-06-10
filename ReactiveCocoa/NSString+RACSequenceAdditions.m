@@ -8,11 +8,20 @@
 
 #import "NSString+RACSequenceAdditions.h"
 #import "RACStringSequence.h"
+#import "RACTokenizedStringSequence.h"
 
 @implementation NSString (RACSequenceAdditions)
 
 - (RACSequence *)rac_sequence {
 	return [RACStringSequence sequenceWithString:self offset:0];
+}
+
+- (RACSequence *)rac_lineSequence {
+    return [self rac_sequenceWithTokenization:NSStringEnumerationByLines];
+}
+
+- (RACTokenizedStringSequence *)rac_sequenceWithTokenization:(NSStringEnumerationOptions)tokenization {
+    return [RACTokenizedStringSequence sequenceWithString:self tokenization:tokenization];
 }
 
 @end

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @class RACSequence;
+@class RACTokenizedStringSequence;
 
 @interface NSString (RACSequenceAdditions)
 
@@ -17,5 +18,8 @@
 ///
 /// Mutating the receiver will not affect the sequence after it's been created.
 @property (nonatomic, copy, readonly) RACSequence *rac_sequence;
+@property (nonatomic, copy, readonly) RACSequence *rac_lineSequence;
+
+- (RACSequence *)rac_sequenceWithTokenization:(NSStringEnumerationOptions)tokenization;
 
 @end
